@@ -1,0 +1,102 @@
+/* purgecss start ignore */
+
+.debug * {
+  outline: 1px solid gold;
+}
+
+/* Disable chrome highlighting autofill input fields */
+input:-webkit-autofill,
+input:-internal-autofill-selected,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+input:-internal-autofill-selected:hover,
+input:-internal-autofill-selected:focus,
+input:-internal-autofill-selected:active {
+  -webkit-transition-delay: 99999s !important;
+  background-color: transparent !important;
+}
+
+/* hide scroll bar */
+.overflow-scroll-hidden {
+  /* FireFox */
+  scrollbar-width: none;
+
+  /* IE10+ */
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+
+  &::-webkit-scrollbar {
+    /* Chrome, Safari, Edge */
+    display: none;
+  }
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+body {
+  font-family: 'Neris', sans-serif !important;
+  overflow-x: hidden ;
+}
+
+.top-nav {
+  height: 64px;
+}
+
+.pt-nav {
+  padding-top: 64px;
+}
+
+
+
+.app-container {
+  width: 100%;
+  max-width: 1200px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+.app-bg {
+  background: #1C355E;
+}
+
+.about-bg {
+  background: #1C355E;
+}
+
+@media (min-width: 1024px) {
+  .about-bg {
+    background: #fff;
+  }
+}
+
+.app-text {
+  color: #1C355E;
+}
+
+.bg-dark {
+  background: #18191F;
+}
+
+.carousel-h {
+  height: calc(100vh - 64px);
+}
+
+.bg-08 {
+  background: rgba(255, 255, 255, 0.8);
+}
+.bg-01 {
+  background: rgba(255, 255, 255, 0.1);
+ }
+
+ .polygon {
+   background: url('/static/content/polygon.png') no-repeat;
+   background-size: contain;
+ }
+
+ .bg-gradient-span {
+  background: linear-gradient(135deg, #1C355E -7.03%, #4685EB 86.72%), #1A86EB;
+ }
+/* purgecss end ignore */
