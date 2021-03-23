@@ -42,44 +42,46 @@
       </div>
     </div>
 
-    <div class="flex flex-col-reverse justify-between mt-10 border-t-2 border-gray-500 lg:flex-row pt-7">
-      <div class="mt-5 text-gray-400 lg:mt-0">
+    <div class="flex justify-between mt-10 border-t-2 border-gray-500 lg:flex-row pt-7">
+      <div class="text-gray-400 lg::mt-5 lg:mt-0">
         © 2011 SUPPLY PLUS <br />
         Все права защищены
       </div>
 
-      <div class="flex space-x-4 text-white">
+      <div class="flex flex-col text-white md:space-x-4 lg:flex-row">
         <a href="mailto:supplypls@gmail.com">supplypls@gmail.com</a>
         <a href="tel:+996555155677">+996 555 15 56 77</a>
 
-        <div class="flex">
-          <span>RU</span>
-          <svg
-            class="ml-2 overflow-hidden rounded-full"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <rect
-              x="-9"
-              y="15.75"
-              width="42.75"
-              height="8.25"
-              fill="#E53B35" />
-            <rect
-              x="-9"
-              width="42.75"
-              height="8.25"
-              fill="white" />
-            <rect
-              x="-9"
-              y="8.25"
-              width="42.75"
-              height="7.5"
-              fill="#0C47B7" />
-          </svg>
+        <div class="hidden lg:block">
+          <div class="flex">
+            <span>RU</span>
+            <svg
+              class="ml-2 overflow-hidden rounded-full"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="-9"
+                y="15.75"
+                width="42.75"
+                height="8.25"
+                fill="#E53B35" />
+              <rect
+                x="-9"
+                width="42.75"
+                height="8.25"
+                fill="white" />
+              <rect
+                x="-9"
+                y="8.25"
+                width="42.75"
+                height="7.5"
+                fill="#0C47B7" />
+            </svg>
 
+          </div>
         </div>
       </div>
     </div>
